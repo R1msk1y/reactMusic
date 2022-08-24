@@ -1,0 +1,35 @@
+.header{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+//header__left
+.header__left{
+    display: flex;
+    column-gap: 16px;
+}
+.header__left-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.header__left-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.header__left-descr{
+    color: #9D9D9D;
+    font-size: 1.4rem;
+}
+//header__right
+.header__right{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.header__right-box{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}

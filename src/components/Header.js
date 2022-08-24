@@ -1,33 +1,32 @@
-function Header (){
+function Header () {
 
- return (
-    <header className='header'>
-    <div className='container'>
-    <div className='header__inner'>
-      <div className='header__left'>
-        <img className='header__left-img' width={60} height={60} src='./img/header/header-logo.jpg' alt='header-logo'/>
-        <div className='header__left-flex'>
-          <h2>React Music</h2>
-          <p>Магазин моднейшей музыки</p>
+    return <header className="header">
+        <div className="header__left">
+            <img className="header__left-img" src="/img/header/header-logo.jpg"/>
+            <div className="header__left-box">
+                <h2 className="header__left-title">React Music</h2>
+                <h3 className="header__left-descr">Магазин моднейшей музыки</h3>
+            </div>
+        
         </div>
+        <div className="header__right">
+            <div className="header__right-box">
+                <img src="./img/header/cart.svg" alt="cart"/>
+                <p className="header__right-text">1205<span className="header__right-span">руб.</span></p>
+            </div>
 
-      </div>
-      <div className='header__right'>
+            <button>
+            <img src="./img/header/like.svg" alt="like"/>
+            </button>
 
-        <div className='header__right-box'>
-        <img className='header__left-img' width={18} height={12} src='./img/header/cart.svg' alt='cart'/>
-      <span>1000 руб.</span>
-      
+            <button>
+            <img src="./img/header/user.svg" alt="user"/>
+            </button>
+   
         </div>
-      
-      <img className='header__left-img' width={18} height={12} src='./img/header/like.svg' alt='like'/>
-      <img className='header__left-img' width={18} height={12} src='./img/header/user.svg' alt='user'/>
-      </div>
-       
-    </div>
-    </div>
+        
+        
     </header>
- );
 
 };
 
