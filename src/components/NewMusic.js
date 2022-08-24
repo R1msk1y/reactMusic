@@ -22,8 +22,23 @@ function NewMusic (){
          
             <p className="newMusic__productList-artistName">Ольга Бузова</p>
             <p className="newMusic__productList-albumName">Под звуки поцелуев</p>
-            <p className="newMusic__productList-text">Цена:</p>
-            <p className="newMusic__productList-price">12 999 <span>руб.</span></p>
+            <div className="newMusic__productList-priceBox">
+
+                <div>
+                <p  className="newMusic__productList-text">Цена:</p>
+                <p className="newMusic__productList-price">12 999 <span>руб.</span></p>
+                </div>
+
+                
+                <img className="newMusic__productList-addCart" src="./img/newMusic/addCart.svg"/>
+                
+
+               
+
+          
+
+            </div>
+            
             
             
         </div>
