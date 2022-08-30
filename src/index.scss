@@ -1,6 +1,7 @@
 @import '/src/scss/reset';
 @import '/src/scss/header';
-@import '/src/scss/newMusic.scss';
+@import '/src/scss/newMusic';
+@import '/src/scss/drawer.scss';
 
 body, html {
   margin: 0;
@@ -14,7 +15,8 @@ body, html {
 
 .page{
   max-width: 1080px;
-  height: 100vh;
+  height: auto;
+  padding-bottom: 200px;
   margin: 0 auto;
   margin-top: 43px;
   border-radius: 20px;
